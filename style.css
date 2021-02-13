@@ -1,0 +1,201 @@
+body,h1,h2,h3,h4,h5,h6,p{font-family:'work sans', sans-serif;}
+
+img{max-width: 100%;}
+.min-section-bg{ 
+    background: #f7f9ff ;
+}
+
+/*jon-header*/
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.jon-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;}
+
+.jon-header span {
+    display: inline-block;
+    background: #6278df;
+    color: #fff;
+    height: 43px;
+    width: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 3px; }
+
+h3 {
+        display: inline-block;
+        padding-left: 10px;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+h3:hover{
+    color:rgba(98, 94, 94, 0.37) ;
+}
+.jon-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;}
+
+/*slider-section*/
+.font-weight-bold {
+    font-weight: 900 !important;
+}
+.btn-group-lg > .btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+}
+
+.slider-section{
+    background:url(img/mbr-10.jpg) no-repeat center center; 
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+                       }
+
+.slider-caption h4 {margin-bottom: 35px;}
+.slider-caption h1 {margin-bottom: 50px;
+                   font-size: 46px;}
+
+.slider-caption .form-control {
+    padding: 14px 18px;
+}
+.h6{padding-left: 450px;}
+.slider-caption .btn {
+    padding: 6.5px 18px;
+    background: #5ba533;
+    font-size: 30px;
+    font-weight: 600;}
+
+.slider-caption .btn:hover{
+     background: #fff;
+     color:#6278df ;
+}   
+/*about-section*/
+
+
+
+.h2, h2 {
+    font-size: 45px;
+    font-weight: 600;}
+.about-section{
+    background: #f7f9ff;}
+.about-text-left{
+    margin-top: 100px;}
+.about-text-left .lead{
+    font-size: 20px;
+    line-height: 2.7rem;}
+.feature-item {
+    height: 240px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(111, 119, 158, 0.4);}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;}
+.left-text-sec{
+    width: 60%;
+    padding: 1rem;}
+.left-img-sec img {
+    height: 240px;
+    width: 300px;
+    max-width: inherit !important;
+    position: relative;
+    left: -80px;}
+h5{ color: #000000;
+    font-weight: 600;}
+p { color: #767676;
+    font-size: 1rem;
+    line-height: 1.4;}
+/*portfolio-item*/
+.portfolio-item{ }
+.portfolio-item a{ 
+    position: relative;
+    display: block;}
+.portfolio-item a::after{
+    content: "";  
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(98, 120, 223,.6) ;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;}
+.portfolio-item:hover a::after{
+     opacity: 1;
+     visibility: visible;}
+.pricing-item{
+     background-color: #fff;
+     padding: 50px;
+     box-shadow: 2.5px 4.33px 30px 0 rgba(111, 119, 158, 0.4); 
+     border-radius: 5px;}
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 48%;
+    padding-left: 40px;}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 45px;}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;}
+.pricing-item ul li span{
+    color: #657be0;
+    font-size: 25px;
+    width: 40px;
+    display: inline-block;}
+.pricing-item-button{}
+.pricing-item-button a {
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 14px 30px;
+    font-size: 22px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(111, 119, 158, 0.2);}
+/*.author-info*/
+.author-info{
+    width: 220px;
+    margin: auto;}
+.author-info img {
+    width: 85px;
+    margin-right: 18px;}
+.usre-details{
+    text-align: left;
+    position: relative;
+    padding-top: 18px;}
+/*about-item*/
+.about-item {
+    margin-top: 140px;}
+.about-item .card{}
+.about-item .card img {
+    width: 130px;
+    height: auto;
+    margin-top: -80px;
+    margin-left: 15px;}
+/*contnt-form-div*/
+.contnt-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(111, 119, 158, 0.3);
+    padding: 50px;}
